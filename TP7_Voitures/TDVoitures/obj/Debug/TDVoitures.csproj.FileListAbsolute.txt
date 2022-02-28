@@ -1,0 +1,7 @@
+C:\Users\rayane.bosso\source\repos\TDVoitures\TDVoitures\obj\Debug\TDVoitures.csproj.AssemblyReference.cache
+C:\Users\rayane.bosso\source\repos\TDVoitures\TDVoitures\obj\Debug\TDVoitures.csproj.CoreCompileInputs.cache
+C:\Users\rayane.bosso\source\repos\TDVoitures\TDVoitures\bin\Debug\TDVoitures.exe.config
+C:\Users\rayane.bosso\source\repos\TDVoitures\TDVoitures\bin\Debug\TDVoitures.exe
+C:\Users\rayane.bosso\source\repos\TDVoitures\TDVoitures\bin\Debug\TDVoitures.pdb
+C:\Users\rayane.bosso\source\repos\TDVoitures\TDVoitures\obj\Debug\TDVoitures.exe
+C:\Users\rayane.bosso\source\repos\TDVoitures\TDVoitures\obj\Debug\TDVoitures.pdb

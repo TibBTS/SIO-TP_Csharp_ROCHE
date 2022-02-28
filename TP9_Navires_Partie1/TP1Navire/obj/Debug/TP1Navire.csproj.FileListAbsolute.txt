@@ -1,0 +1,21 @@
+C:/Users/rayane.bosso/source/repos/TP1Navire/TP1Navire/bin/Debug/TP1Navire.exe.config
+C:/Users/rayane.bosso/source/repos/TP1Navire/TP1Navire/bin/Debug/TP1Navire.exe
+C:/Users/rayane.bosso/source/repos/TP1Navire/TP1Navire/bin/Debug/TP1Navire.pdb
+C:/Users/rayane.bosso/source/repos/TP1Navire/TP1Navire/obj/Debug/TP1Navire.csproj.AssemblyReference.cache
+C:/Users/rayane.bosso/source/repos/TP1Navire/TP1Navire/obj/Debug/TP1Navire.csproj.CoreCompileInputs.cache
+C:/Users/rayane.bosso/source/repos/TP1Navire/TP1Navire/obj/Debug/TP1Navire.exe
+C:/Users/rayane.bosso/source/repos/TP1Navire/TP1Navire/obj/Debug/TP1Navire.pdb
+/Users/stephanebosso/Desktop/TP1Navire/TP1Navire/bin/Debug/TP1Navire.exe.config
+/Users/stephanebosso/Desktop/TP1Navire/TP1Navire/bin/Debug/TP1Navire.exe
+/Users/stephanebosso/Desktop/TP1Navire/TP1Navire/bin/Debug/TP1Navire.pdb
+/Users/stephanebosso/Desktop/TP1Navire/TP1Navire/obj/Debug/TP1Navire.csprojAssemblyReference.cache
+/Users/stephanebosso/Desktop/TP1Navire/TP1Navire/obj/Debug/TP1Navire.csproj.CoreCompileInputs.cache
+/Users/stephanebosso/Desktop/TP1Navire/TP1Navire/obj/Debug/TP1Navire.exe
+/Users/stephanebosso/Desktop/TP1Navire/TP1Navire/obj/Debug/TP1Navire.pdb
+E:\Bonapart BTS\Roche\TPNavire1Ry\TP1Navire\bin\Debug\TP1Navire.exe.config
+E:\Bonapart BTS\Roche\TPNavire1Ry\TP1Navire\bin\Debug\TP1Navire.exe
+E:\Bonapart BTS\Roche\TPNavire1Ry\TP1Navire\bin\Debug\TP1Navire.pdb
+E:\Bonapart BTS\Roche\TPNavire1Ry\TP1Navire\obj\Debug\TP1Navire.csproj.AssemblyReference.cache
+E:\Bonapart BTS\Roche\TPNavire1Ry\TP1Navire\obj\Debug\TP1Navire.csproj.CoreCompileInputs.cache
+E:\Bonapart BTS\Roche\TPNavire1Ry\TP1Navire\obj\Debug\TP1Navire.exe
+E:\Bonapart BTS\Roche\TPNavire1Ry\TP1Navire\obj\Debug\TP1Navire.pdb

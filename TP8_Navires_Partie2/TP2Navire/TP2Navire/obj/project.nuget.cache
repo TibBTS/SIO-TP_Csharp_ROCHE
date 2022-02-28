@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "V5McjvudPe5LBhmkYgd7CiPu5LDQt3/P7fpS6TvP6uuqmb+qFXKU75avCusCD6J0/k0SDv9MK748/tPE4qKimQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thibaud.brouillet\\Desktop\\TPC#ROCHE\\TP8_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thibaud.brouillet\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
