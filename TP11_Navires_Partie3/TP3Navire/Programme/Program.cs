@@ -10,6 +10,7 @@ namespace TP3Navire
     {
         static void Main(string[] args)
         {
+            Console.ReadKey();
         }
     }
 }
