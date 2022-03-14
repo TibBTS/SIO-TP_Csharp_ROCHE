@@ -106,6 +106,14 @@ namespace TP1Navire.ClassesMetier
         /// <param name="imo">Imatriculation du navire.</param>
         public void Dechargement(string imo)
         {
+            while 
+            
+            
+            
+            
+            
+            
+            
             if (!this.EstPresent(imo))
             {
                 throw new GestionPortException("Impossible de trouver le navire " + imo + " il n'est pas dans le port.");

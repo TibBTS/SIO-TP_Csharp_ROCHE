@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thibaud.brouillet\\Desktop\\TPC#ROCHE\\TP8_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj": {}
+    "E:\\Bonapart BTS\\Roche\\TPC#ROCHE\\TP_Csharp_ROCHE\\TP9_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thibaud.brouillet\\Desktop\\TPC#ROCHE\\TP8_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj": {
+    "E:\\Bonapart BTS\\Roche\\TPC#ROCHE\\TP_Csharp_ROCHE\\TP9_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thibaud.brouillet\\Desktop\\TPC#ROCHE\\TP8_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj",
+        "projectUniqueName": "E:\\Bonapart BTS\\Roche\\TPC#ROCHE\\TP_Csharp_ROCHE\\TP9_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj",
         "projectName": "TP2Navire",
-        "projectPath": "C:\\Users\\thibaud.brouillet\\Desktop\\TPC#ROCHE\\TP8_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj",
+        "projectPath": "E:\\Bonapart BTS\\Roche\\TPC#ROCHE\\TP_Csharp_ROCHE\\TP9_Navires_Partie2\\TP2Navire\\TP2Navire\\TP2Navire.csproj",
         "packagesPath": "C:\\Users\\thibaud.brouillet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thibaud.brouillet\\Desktop\\TPC#ROCHE\\TP8_Navires_Partie2\\TP2Navire\\TP2Navire\\obj\\",
+        "outputPath": "E:\\Bonapart BTS\\Roche\\TPC#ROCHE\\TP_Csharp_ROCHE\\TP9_Navires_Partie2\\TP2Navire\\TP2Navire\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,14 +46,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "StyleCop.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.1.118, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
