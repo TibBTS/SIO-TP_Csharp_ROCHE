@@ -13,10 +13,10 @@ namespace NavireHeritage.ClassesMetier
         private string prenom;
         private string nationalité;
         
-        public string NumPasseport { get => numPasseport; set => numPasseport = value; }
-        public string Nom { get => nom; set => nom = value; }
-        public string Prenom { get => prenom; set => prenom = value; }
-        public string Nationalité { get => nationalité; set => nationalité = value; }
+        public string NumPasseport { get => numPasseport;  }
+        public string Nom { get => nom; }
+        public string Prenom { get => prenom; }
+        public string Nationalité { get => nationalité; }
 
         public Passager(string numPasseport, string nom, string prenom, string nationalité)
         {
