@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP3Navire.ClassesMetier
+namespace NavireHeritage.ClassesMetier
 {
     class Croisiere
     {

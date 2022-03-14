@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP3Navire.ClassesTechniques
+namespace NavireHeritage.ClassesTechniques
 {
     class Test
     {

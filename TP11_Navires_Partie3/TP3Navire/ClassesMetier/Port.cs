@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP3Navire.ClassesMetier
+namespace NavireHeritage.ClassesMetier
 {
     class Port
     {
@@ -16,17 +16,7 @@ namespace TP3Navire.ClassesMetier
         private int nbQuaisSuperTanker;
         private int nbQuaisPassager;
 
-        public Port(string nom, string latitude, string longitude, int nbPortique, int nbQuaisTanker, int nbQuaisSuperTanker, int nbQuaisPassager)
-        {
-            this.nom = nom;
-            this.latitude = latitude;
-            this.longitude = longitude;
-            this.nbPortique = nbPortique;
-            this.nbQuaisTanker = nbQuaisTanker;
-            this.nbQuaisSuperTanker = nbQuaisSuperTanker;
-            this.nbQuaisPassager = nbQuaisPassager;
-        }
-
+       
         public string Nom { get => nom; set => nom = value; }
         public string Latitude { get => latitude; set => latitude = value; }
         public string Longitude { get => longitude; set => longitude = value; }
@@ -34,5 +24,16 @@ namespace TP3Navire.ClassesMetier
         public int NbQuaisTanker { get => nbQuaisTanker; set => nbQuaisTanker = value; }
         public int NbQuaisSuperTanker { get => nbQuaisSuperTanker; set => nbQuaisSuperTanker = value; }
         public int NbQuaisPassager { get => nbQuaisPassager; set => nbQuaisPassager = value; }
-    }
+     
+        public Port(string nom, string latitude, string longitude, int nbPortique, int nbQuaisTanker, int nbQuaisSuperTanker, int nbQuaisPassager)
+        {
+            this.Nom = nom;
+            this.Latitude = latitude;
+            this.Longitude = longitude;
+            this.NbPortique = nbPortique;
+            this.NbQuaisTanker = nbQuaisTanker;
+            this.NbQuaisSuperTanker = nbQuaisSuperTanker;
+            this.NbQuaisPassager = nbQuaisPassager;
+        }
+
 }
