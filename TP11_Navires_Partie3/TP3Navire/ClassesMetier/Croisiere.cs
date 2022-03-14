@@ -31,11 +31,11 @@ namespace NavireHeritage.ClassesMetier
         {
             if (passager.Count + PassagerEmbarquer.Count < nbPassagersMaxi)
             {
-                passager.Add("lol",PassagerEmbarquer);
+                passager.Add(PassagerEmbarquer,);
             }
             else
             {
-                throw new Exception
+                throw new Exception()
             }
         }
 
