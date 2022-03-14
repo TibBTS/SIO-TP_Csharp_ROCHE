@@ -16,22 +16,39 @@ namespace NavireHeritage.ClassesMetier
         public int NbPassagersMaxi { get => nbPassagersMaxi; }
         internal Dictionary<string, Passager> Passager { get => passager;}
 
+
+        public Croisiere(string imo, char nom, string latitude, string longitude, int tonnageGT, int tonnageDWT, int tonnageActuel, char typeNavireCroisiere, int nbPassagersMaxi)
+            : base(imo, nom, latitude, longitude, tonnageGT, tonnageDWT, tonnageActuel)
+        {
+        }
+
         public Croisiere(string imo, char nom, string latitude, string longitude, int tonnageGT, int tonnageDWT, int tonnageActuel, char typeNavireCroisiere, int nbPassagersMaxi, List<Passager>Newpassagers)
             : base(imo, nom, latitude, longitude, tonnageGT, tonnageDWT, tonnageActuel)
         {
         }
 
-        public void enmbarquer(List<Passager>Newpassager)
+        public void embarquer(List<Passager>PassagerEmbarquer)
         {
-            if (passager.Count + Newpassager.Count < nbPassagersMaxi)
+            if (passager.Count + PassagerEmbarquer.Count < nbPassagersMaxi)
             {
-                passager.Add(Newpassager.Count);
+                passager.Add("lol",PassagerEmbarquer);
+            }
+            else
+            {
+                throw new Exception
+            }
+        }
+
+        public void debarquer(List<Passager> PassagerDebarquer)
+        {
+            if (passager.Count + PassagerDebarquer.Count < nbPassagersMaxi)
+            {
+                passager.Add(PassagerDebarquer.Count);
             }
             else
             {
 
             }
         }
-
     }
 }
