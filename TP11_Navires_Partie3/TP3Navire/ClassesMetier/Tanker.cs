@@ -9,7 +9,7 @@ namespace NavireHeritage.ClassesMetier
     class Tanker : Navire
     {
         private string typeFluide;
-        public string TypeFluide { get => typeFluide; set => typeFluide = value; }
+        public string TypeFluide { get => typeFluide; }
         
        public Tanker(string imo, char nom, string latitude, string longitude, int tonnageGT, int tonnageDWT, int tonnageActuel,string typeFluide) 
             : base(imo, nom, latitude, longitude, tonnageGT, tonnageDWT, tonnageActuel)

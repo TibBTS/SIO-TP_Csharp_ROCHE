@@ -9,7 +9,7 @@ namespace NavireHeritage.ClassesMetier
     class Cargo : Navire
     {
         private string typeFret;
-        public string TypeFret { get => typeFret; set => typeFret = value; }
+        public string TypeFret { get => typeFret; }
 
         public Cargo(string imo, char nom, string latitude, string longitude, int tonnageGT, int tonnageDWT, int tonnageActuel,string typeFret)
             : base(imo, nom, latitude, longitude, tonnageGT, tonnageDWT, tonnageActuel)
