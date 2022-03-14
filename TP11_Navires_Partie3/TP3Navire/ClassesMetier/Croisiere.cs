@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace NavireHeritage.ClassesMetier
 {
-    class Croisiere
+    class Croisiere:Navire
     {
         private char typeNavireCroisiere;
         private int nbPassagersMaxi;
+
+       
     }
 }
