@@ -10,9 +10,11 @@ namespace NavireHeritage.ClassesMetier
     {
         private char typeNavireCroisiere;
         private int nbPassagersMaxi;
-        
-        public char TypeNavireCroisiere { get => typeNavireCroisiere; set => typeNavireCroisiere = value; }
-        public int NbPassagersMaxi { get => nbPassagersMaxi; set => nbPassagersMaxi = value; }
+        private Dictionary<String, Passager> passager = new Dictionary<string, Passager>();
+
+        public char TypeNavireCroisiere1 { get => typeNavireCroisiere; set => typeNavireCroisiere = value; }
+        public int NbPassagersMaxi1 { get => nbPassagersMaxi; set => nbPassagersMaxi = value; }
+        internal Dictionary<string, Passager> Passager { get => passager; set => passager = value; }
 
         public Croisiere(string imo, char nom, string latitude, string longitude, int tonnageGT, int tonnageDWT, int tonnageActuel, char typeNavireCroisiere, int nbPassagersMaxi, List<Passager>Newpassagers)
             : base(imo, nom, latitude, longitude, tonnageGT, tonnageDWT, tonnageActuel)
@@ -21,7 +23,14 @@ namespace NavireHeritage.ClassesMetier
 
         public void enmbarquer(List<Passager>Newpassager)
         {
-            if(list<passager>+nbPassagersMaxi)
+            if (passager.Count + Newpassager.Count < nbPassagersMaxi)
+            {
+                passager.Add(Newpassager.Count);
+            }
+            else
+            {
+
+            }
         }
 
     }
