@@ -8,5 +8,9 @@ namespace TP3Navire.ClassesMetier
 {
     class Passager
     {
+        private string numPasseport;
+        private string nom;
+        private string prenom;
+        private string nationalité;
     }
 }

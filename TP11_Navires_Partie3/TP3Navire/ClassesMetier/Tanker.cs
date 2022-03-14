@@ -8,5 +8,6 @@ namespace TP3Navire.ClassesMetier
 {
     class Tanker
     {
+        private string typeFluide;
     }
 }

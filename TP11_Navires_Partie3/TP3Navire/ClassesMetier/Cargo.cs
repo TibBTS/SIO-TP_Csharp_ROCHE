@@ -8,5 +8,6 @@ namespace TP3Navire.ClassesMetier
 {
     class Cargo
     {
+        private string typeFret;
     }
 }

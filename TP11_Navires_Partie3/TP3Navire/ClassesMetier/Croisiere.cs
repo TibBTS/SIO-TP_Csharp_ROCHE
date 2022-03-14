@@ -8,5 +8,7 @@ namespace TP3Navire.ClassesMetier
 {
     class Croisiere
     {
+        private char typeNavireCroisiere;
+        private int nbPassagersMaxi;
     }
 }
