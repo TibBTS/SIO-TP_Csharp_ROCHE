@@ -37,6 +37,7 @@ namespace NavireHeritage.ClassesMetier
             this.nbQuaisPassager = nbQuaisPassager;
         }
 
+
         
 
 
