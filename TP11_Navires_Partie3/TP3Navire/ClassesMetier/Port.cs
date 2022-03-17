@@ -44,9 +44,9 @@ namespace NavireHeritage.ClassesMetier
         internal Dictionary<string, Navire> NavireEnAttente { get => navireEnAttente; }
     }
 
-    public void enregistrerArriveePrevue(Object)
+    public void enregistrerArriveePrevue(Navire navire)
     {
-
+       navire(imo,this.NavireAttendus.value[imo])
     }
 
     public void EnregistrerArrivee(Object)
@@ -63,5 +63,12 @@ namespace NavireHeritage.ClassesMetier
 
     }
 
-    public EstPresent(String)
+    public bool EstPresent(String)
+    {
+
+    }
+
+
+
+
 }
