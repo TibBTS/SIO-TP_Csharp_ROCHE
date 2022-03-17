@@ -46,10 +46,10 @@ namespace NavireHeritage.ClassesMetier
 
     public void enregistrerArriveePrevue(Navire navire)
     {
-        NavireAttendus.add(navire.Imo, navire);
+        NavireAttendus.Add(navire.Imo, navire);
     }
 
-    public void EnregistrerArrivee(Object)
+    public void EnregistrerArrivee(navire.Imo, navire,)
     {
 
     }
