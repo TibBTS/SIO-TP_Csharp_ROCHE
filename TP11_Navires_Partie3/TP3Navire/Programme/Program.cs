@@ -10,7 +10,17 @@ namespace NavireHeritage
     {
         static void Main(string[] args)
         {
-            Console.ReadKey();
+            try
+            {
+            
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }   
+                Console.ReadKey();
+
+
         }
     }
 }
