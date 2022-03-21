@@ -49,9 +49,17 @@ namespace NavireHeritage.ClassesMetier
         NavireAttendus.Add(navire.Imo, navire);
     }
 
-    public void EnregistrerArrivee(navire.Imo, navire,)
+    public void EnregistrerArrivee(Navire navire)
     {
-
+        if (navireAttendus.ContainsValue(navire))
+            {
+                navireAttendus.Add(navire.Imo, navire);
+                navireAttendus.Remove(navire.Imo);
+            }
+        else
+        {
+                throw new Exception("Le navire n'etait pas attendus");
+        }
     }
 
     public void EnregistrerDepart(Object)
