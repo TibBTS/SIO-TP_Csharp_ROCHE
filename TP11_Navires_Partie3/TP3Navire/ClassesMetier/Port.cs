@@ -94,9 +94,19 @@ namespace NavireHeritage.ClassesMetier
       {
             return navireEnAttente.ContainsKey(imo);
        }
-    public void Chargement(string imo , int qté)
+    public int Chargement(string imo , int qté)
         {
-
+            if (navireArrives.ContainsKey(imo))
+            {
+                if(this.navireArrives[imo].TonnageDWT > this.navireArrives[imo].TonnageActuel + qté)
+                {
+                    navireArrives[imo].TonnageActuel + qté;
+                }
+                else
+                {
+                    throw new Exception("Il n'y a pas assez de place pour charger cette quantité ");
+                }
+            }
         }
 
 
