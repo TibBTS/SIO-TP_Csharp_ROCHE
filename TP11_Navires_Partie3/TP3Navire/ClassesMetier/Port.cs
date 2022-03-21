@@ -62,20 +62,42 @@ namespace NavireHeritage.ClassesMetier
         }
     }
 
-    public void EnregistrerDepart(Object)
+
+    
+    public void EnregistrerDepart(Navire navire)
     {
+            if ()
+            {
+                navirePartis.Add(navire.Imo, navire);
+                navireArrives.Remove(navire.Imo);
+               
+            }
+            else
+            {
+                throw new Exception("Le navire n'est pas présent dans le port");
+            }
+    }
+    public void AjoutNavireEnAttente(Navire navire)
+      {
+            navireEnAttente.Add(navire.Imo, navire);
+      }
+    public bool EstAttendu(string imo)
+    {
+            return navireEnAttente.ContainsKey(imo);
     }
 
-    public bool EstAttendu(String)
+    public bool EstPresent(string imo)
     {
-
+            return navireArrives.ContainsKey(imo);
     }
+    public bool EstEnAttente(string imo)
+      {
+            return navireEnAttente.ContainsKey(imo);
+       }
+    public void Chargement(string imo , int qté)
+        {
 
-    public bool EstPresent(String)
-    {
-
-    }
-
+        }
 
 
     }
