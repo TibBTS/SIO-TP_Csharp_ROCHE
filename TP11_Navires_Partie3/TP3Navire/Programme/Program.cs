@@ -12,13 +12,15 @@ namespace NavireHeritage
         {
             try
             {
-            
+                Port port = new Port("Marseille", "43.2976N", "5.3471E", 4, 3, 2, 4);
+                Console.WriteLine(port); 
+                Console.ReadKey();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }   
-                Console.ReadKey();
+               
 
 
         }
